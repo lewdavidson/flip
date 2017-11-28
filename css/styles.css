@@ -83,35 +83,43 @@ body {
 }
 
 @media screen and (min-width: 900px) {
+  #speg {
+    margin-top: 50px;
+  }
+  #speg p {
+    margin-bottom: 100px;
+  }
   .big-hole {
-    margin-bottom: 8vh;
+    margin-top: 2vh;
+    margin-bottom: 6vh;
     width: 20vw;
     height: 20vh;
     margin-right: 13vw;
   }
 
-  #speg {
-    margin-bottom: 200px;
-  }
   section.col-container {
     float: right;
     width: 65%;
     height: 69vh;
   }
   .col-half {
-    width: 50%;
+    width: 45%;
     display: inline-block;
     float: left;
+    margin-right: 5px;
   }
   div.cf {
     float: left;
     clear: none;
     width: 34%;
     height: 70vh;
-    margin-top: 15vh;
+    margin-top: 7vh;
   }
   div.rectal {
     width: 90%;
-    margin-top: 5vh;
+    margin-top: 4vh;
+  }
+  .rectal {
+    background: black;
   }
 }
